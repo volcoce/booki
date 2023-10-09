@@ -118,35 +118,41 @@ main {
 /****** Searchs ***********/
 .searchs {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
-    width: 377;
+    width: 377px;
     height: 49px;
     background: var(--white);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.searchs i{
-    width: 49px;
+
+
+.searchs i {
     height: 47px;
     background-color: var(--main-bg-color);
     border-radius: 15px 0px 0px 15px ;
     border: 1px solid var(--main-bg-color);
+    padding: 0px 17px;
 }
 
 .searchs input {
+    
     color: var(--black);
     border: 0px;
     border-bottom: 1px solid var(--main-bg-color);
     border-top: 1px solid var(--main-bg-color);
-    padding: 0px;
+    text-align: center;
 }
 
-.fa-location-dot  {
+.fa-location-dot {
     text-align: center;
     color: var(--black);
 }
 
-.searchs button{
+.searchs button {
     padding: 15px 16px;
     color: var(--white) ;
     background-color: var(--main-color);
@@ -155,23 +161,32 @@ main {
 }
 
 /****** Filters ***********/
-.filters {
+.filters-cotainer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 15px;
+
 }
 
-.filters button {
-    padding: 0px 19px;
+.filters-button {
+    padding: 10px 19px;
     color: var(--black) ;
     background-color: var(--white);
     border: 2px solid var(--grey-tint-2);
     border-radius: 25px ;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.filters button.active{
+.filters-button i {
+    margin-right: 10px;
+}
+
+.filters button.active {
     background-color: var(--blue-light);
 }
 
@@ -188,6 +203,20 @@ main {
     background-color: var(--white);
     border: 2px solid var(--main-bg-color);
     
+}
+
+.info i{
+    border: 2px solid var(--grey-tint-2);
+    border-radius: 100%;
+    padding: 2px 7px;
+}
+
+.info p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -216,20 +245,27 @@ main {
     margin-bottom: 33px;
 }
 
-
 .hebergements-cards {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    gap: 30px;}
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 30px 0px;
+}
+
+.hebergements-container {
+    display: flex;
+    gap: 30px;
+}
 
 .hebergements-cards .card {
     display: flex;
     padding-bottom: 15px;
-    flex-direction: column;
     align-items: center;
     gap: 4px;
+    flex-direction: column;
+    align-self: stretch;
+
 }
 
 .hebergements-cards img {
@@ -243,8 +279,7 @@ main {
     padding: 0px 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+
 }
 
 .hebergements-cards .card-title {
@@ -348,7 +383,7 @@ main {
 
 
 /****** footer ***********/
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
@@ -357,11 +392,11 @@ footer{
     margin-bottom: 0px;
 }
 
-footer h4{
+footer h4 {
     margin: 0px;
 }
 
-footer div{
+footer div {
     width: 100%;
     display: flex;
     justify-content: flex-start;
