@@ -19,35 +19,44 @@
 <body>
     <div class="main-container">
         <header>
-            <img class="logo" src="./images/logo/Booki.png" alt="image du logo booki">
+            <div class="logo">
+                <img src="./images/logo/Booki.png" alt="image du logo booki">
+            </div>
             <nav class="nav">
-                <a class="active" href="./index.html">Hébergements</a>
-                <a  href="#">Activités</a>
+                    <a class="active" href="./index.html">Hébergements</a>
+                    <a  href="#">Activités</a>
             </nav>
         </header>
         <main>
-            <div class="searchs-and-filters">
+            <div class="informations">
                 <section class="headline">
                     <div>
                         <h2 class="section-title">Trouvez votre hébergements pour des vacances de rêve</h2>
                         <p>En plein centre-ville ou pleine en nature</p>   
                     </div>               
-                    <div>
-                        <form class="searchs" role="search"  >
-                                <i class="searchs fa-solid fa-location-dot" aria-hidden="true"></i>
-                                <input class="searchs" type="search" id="site-search" name="q" placeholder="Marseille, France">
-                                <button class="searchs" type="submit">Rechercher</button>
-                        </form>
+                    <div class="searchs">
+                        <i class=" fa-solid fa-location-dot" aria-hidden="true"></i>
+                        <input type="text" placeholder="Marseille, France">
+                        <a type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="searchs-icon-text">Rechercher</span>
+                        </a>
                     </div>
                     <div class="filters-cotainer">
                         <h3>Filtres</h3>
-                        <button class="filters-button" ><i class="fa-solid fa-money-bill-wave fa-xl" aria-hidden="true"></i>Economique</button>
-                        <button class="filters-button" ><i class=" fa-solid fa-person fa-xl" aria-hidden="true"></i>familial</button>
-                        <button class="filters-button" ><i class=" fa-solid fa-heart fa-xl" aria-hidden="true"></i>Romantique</button>
-                        <button class="filters-button active"><i class=" fa-solid fa-fire fa-xl" aria-hidden="true"></i>Nos pépites</button>
+                        <div class="filters-frame">
+                            <div class="filters-div">
+                                <a class="filters-button" ><i class="fa-solid fa-money-bill-wave fa-xl" aria-hidden="true"></i>Economique</a>
+                                <a class="filters-button" ><i class=" fa-solid fa-person fa-xl" aria-hidden="true"></i>familial</a>
+                            </div>
+                            <div class="filters-div">
+                                <a class="filters-button" ><i class=" fa-solid fa-heart fa-xl" aria-hidden="true"></i>Romantique</a>
+                                <a class="filters-button active"><i class=" fa-solid fa-fire fa-xl" aria-hidden="true"></i>Nos pépites</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="info">
-                        <i class="fa-solid fa-info" aria-hidden="true"></i>
+                        <i class="fa-solid fa-info fa-2xs" aria-hidden="true"></i>
                         <p>plus de 500 logement sont disponibles dans cette ville</p>
                     </div>
                 </section>
@@ -55,7 +64,7 @@
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="hebergements-title">
-                        <h2 class="section-title">Les plus populaires</h2>
+                        <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergements-cards">
                         <div class="hebergements-container">
@@ -257,11 +266,11 @@
                     </div>
                 </section>
             </div>
-            <div class="activity">
+            <div class="activitys">
                 <div class="activity-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>
-                <div class="activity-cards">
+                <div class="activity-frame">
                     <a href="#">
                         <article class="card">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
