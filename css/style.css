@@ -144,7 +144,7 @@ main {
     padding: 15px 16px;
 }
 
-.searchs a {
+.searchs button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,6 +152,7 @@ main {
     background: var(--main-color);
     color: var(--white);
     padding: 15px 16px;
+    border-style: none;
 }
 
 .searchs .fa-magnifying-glass {
@@ -168,11 +169,6 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-.searchs input:focus {
-    border: none;
-    border-radius: none;
 }
 
 .fa-location-dot {
