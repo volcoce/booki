@@ -449,11 +449,7 @@ main {
     padding: 30px;
 }
 
-<<<<<<< HEAD
 .activitys a {
-=======
-.activitys a{
->>>>>>> b4f4d555210b081f720dc449dbf2f15d27f19807
     flex: 1 0 0;
 }
 
@@ -470,21 +466,13 @@ main {
     align-items: center;
 }
 
-<<<<<<< HEAD
 .activity-frame .card {
-=======
-.activity-frame  .card{
->>>>>>> b4f4d555210b081f720dc449dbf2f15d27f19807
     flex-direction: column;
     justify-content: flex-end;
     padding: 0px;
 }
 
-<<<<<<< HEAD
 .activity-frame .card-content {
-=======
-.activity-frame  .card-content{
->>>>>>> b4f4d555210b081f720dc449dbf2f15d27f19807
     display: flex;
     padding: 20px 19px;
     flex-direction: column;
@@ -493,11 +481,7 @@ main {
     gap: 10px;
 }
 
-<<<<<<< HEAD
 .activity-frame .card-title {
-=======
-.activity-frame  .card-title{
->>>>>>> b4f4d555210b081f720dc449dbf2f15d27f19807
     margin: 0px;
 }
 
