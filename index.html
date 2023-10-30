@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-
-
 <body>
     <div class="main-container">
         <header>
@@ -23,8 +21,8 @@
                 <img src="./images/logo/Booki.png" alt="image du logo booki">
             </div>
             <nav class="nav">
-                    <a class="active" href="./index.html">Hébergements</a>
-                    <a  href="#">Activités</a>
+                    <a class="active" href="#hebergements">Hébergements</a>
+                    <a  href="#activitys">Activités</a>
             </nav>
         </header>
         <main>
@@ -34,14 +32,14 @@
                         <h2 class="section-title">Trouvez votre hébergements pour des vacances de rêve</h2>
                         <p>En plein centre-ville ou pleine en nature</p>   
                     </div>               
-                    <div class="searchs">
+                    <form class="searchs">
                         <i class=" fa-solid fa-location-dot" aria-hidden="true"></i>
-                        <input type="text" placeholder="Marseille, France">
+                        <input type="search" placeholder="Marseille, France">
                         <button type="submit">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <span class="searchs-icon-text">Rechercher</span>
                         </button>
-                    </div>
+                    </form>
                     <div class="filters-cotainer">
                         <h3>Filtres</h3>
                         <div class="filters-frame">
@@ -61,7 +59,7 @@
                     </div>
                 </section>
             </div>
-            <div class="hebergements-and-populaires">
+            <div id="hebergements" class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
@@ -266,7 +264,7 @@
                     </div>
                 </section>
             </div>
-            <div class="activitys">
+            <div id="activitys" class="activitys">
                 <div class="activity-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>
