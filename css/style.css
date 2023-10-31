@@ -206,7 +206,11 @@ main {
 }
 
 .filters-button {
-    padding: 10px 19px;
+    display: flex;
+    height: 38px;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 4px 19px;
     color: var(--black);
     background-color: var(--white);
     border: 2px solid var(--grey-tint-2);
@@ -482,8 +486,15 @@ footer div {
         margin: 0px;
     }
 
+    .filters-div{
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
     .filters-button {
         font-size: 16px;
+        padding: 4px 19px;
     }
 
     .hebergements-and-populaires {
@@ -643,12 +654,10 @@ footer div {
 
     .filters-button {
         display: flex;
-        height: 36px;
-        padding: 4px 19px;
+        height: 38px;
         align-items: center;
         flex: 1 0 0;
          font-size: 14px;
-
     }
 
     .hebergements-and-populaires {
