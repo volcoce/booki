@@ -402,13 +402,14 @@ main {
 }
 
 .activitys a {
-    flex: 1 0 0;
+    flex: 1 1 100px;
 }
 
 .activity-frame {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 30px;
-    height: 439px;
 }
 
 .activity-title {
@@ -419,8 +420,6 @@ main {
 }
 
 .activity-frame .card {
-    flex-direction: column;
-    justify-content: flex-end;
     padding: 0px;
 }
 
@@ -525,10 +524,6 @@ footer div {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
-    }
-
-    .activity-frame {
-        height: 270px;
     }
 
     .activity-frame .card-content {
